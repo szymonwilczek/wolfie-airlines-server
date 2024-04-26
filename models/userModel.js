@@ -9,6 +9,7 @@ const flightSchema = new mongoose.Schema({
   price: Number,
   seats: [Number],
   checkin: Boolean,
+  luggageCheckin: Boolean,
 });
 
 const userSchema = new mongoose.Schema({
